@@ -1,0 +1,183 @@
+body {
+  background-color: rgb(190, 189, 189);
+  font-family: "meno-banner";
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+  word-spacing: 2rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h1,
+h2 {
+  font-family: "meno-banner";
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0.1rem 0.1rem 0px #d0604c;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 16rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: #f2e0d2;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 2rem;
+  padding-right: 3rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  margin: 4rem;
+}
+
+footer div {
+  flex: 1;
+  padding: 1rem;
+}
+
+.footerimg {
+  max-height: 0.9rem;
+  min-height: 0.1rem;
+}
+
+h1 + img {
+  max-width: 55%;
+  max-height: 15rem;
+  border-radius: 50%;
+  box-shadow: 0rem 0rem 3rem 1rem rgb(160 157 157);
+}
+.container > img {
+  max-height: 11rem;
+  border-radius: 50%;
+  opacity: 1;
+  min-width: 12rem;
+  width: 55%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+div > p {
+  text-align: right;
+  color: white;
+  font-weight: bolder;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text a:link {
+  color: rgb(67 67 67);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text a:visited {
+  color: rgb(67 67 67);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 950px) {
+  .text a {
+    font-size: x-large;
+  }
+}
+
+nav a,
+.tutorials:link {
+  color: rgb(67 67 67);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a,
+.tutorials:visited {
+  color: rgb(67 67 67);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d0604c;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+
+.services {
+  border-top: 0.3rem solid #f2e0d2;
+  border-bottom: 0.3rem solid #f2e0d2;
+  padding-bottom: 2rem;
+}
+
+#blog {
+  padding-bottom: 1rem;
+}
+
+button {
+  background-color: #d0604c; /* Green */
+  border: none;
+  padding: 0.7rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
